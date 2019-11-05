@@ -1,0 +1,2 @@
+# akari-proj
+teamAkariのプロジェクト。
