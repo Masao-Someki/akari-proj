@@ -6,8 +6,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
-<title>Compact recurrent neural networks for acoustic event detection on
-  low-energy low-complexity platforms-Akari</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157706143-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-157706143-1');
+</script>
+
+<title>Parallel WaveGAN: A fast waveform generation model based on generative
+  adversarial networks with multi-resolution spectrogram-Akari</title>
 <link rel='stylesheet' type='text/css' href='../../../css/normalize.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/skelton.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/menu_bar.css'>
@@ -21,40 +32,39 @@
 	header
 	-->
 <header role="banner">
-  <div class="header-logo">
-    <a href="../../../index.html"><img src="../../../images/akari.png" width="100" height="100"></a>
-  </div>
-</header>
-<input type="checkbox" id="cp_navimenuid">
+		<div class="header-logo">
+			<a href="../../../index.html"><img src="../../../images/akari.png" width="100" height="100"></a>
+		</div>
+	</header>
+  <input type="checkbox" id="cp_navimenuid">
 <label class="menu" for="cp_navimenuid">
-
 <div class="menubar">
-<span class="bar"></span>
-<span class="bar"></span>
-<span class="bar"></span>
+	<span class="bar"></span>
+	<span class="bar"></span>
+	<span class="bar"></span>
 </div>
-
-<ul>
-<li><a id="home" href="../../../index.html">Home</a></li>
-<li><a id="about" href="../../../teamAkariとは.html">About</a></li>
-<li><a id="contact" href="../../../contact.html">Contact</a></li>
-<li><a id="contact" href="../../../list/newest.html">New Papers</a></li>
-<li><a id="contact" href="../../../list/back_number.html">Back Numbers</a></li>
-</ul>
+  <ul>
+    <li><a id="home" href="../../../index.html">Home</a></li>
+    <li><a id="about" href="../../../teamAkariとは.html">About</a></li>
+    <li><a id="contact" href="../../../contact.html">Contact</a></li>
+    <li><a id="contact" href="../../../list/newest.html">New Papers</a></li>
+    <li><a id="contact" href="../../../list/back_number.html">Back Numbers</a></li>
+  </ul>
 
 </label>
+
 <!-- article -->
 <main role="main">
 <article itemscope itemtype="https://schema.org/Blog">
   <h2 class="entry-title" itemprop="headline">
-    <a href="http://arxiv.org/abs/2001.10876v1">
-      Compact recurrent neural networks for acoustic event detection on
-  low-energy low-complexity platforms
+    <a href="http://arxiv.org/abs/1910.11480v2">
+      Parallel WaveGAN: A fast waveform generation model based on generative
+  adversarial networks with multi-resolution spectrogram
     </a>
   </h2>
   <h3 class="entry-abstract" itemprop="abstract">
-      貢献は2つあります。まず、現在のマイクロコントローラーに適合するサウンドイベント検出用の最先端のニューラルネットワークを作成するための2段階の学生教師アプローチが提示されています。次に、特に8ビットの量子化に関連する問題に焦点を当てて、ARM Cortex M4でアプローチをテストします。組み込みの実装により、Urbansound8kの認識で68％の精度を達成できます。オーディオストリームの1秒ごとに125 msの推論時間、わずか34.3 kBのRAMで5.5 mWの電力消費。ただし、現在の組み込み技術とマイクロコントローラーは、エネルギー効率を損なうことなく機能を向上させています。 
-[要約]この課題は、リソースの効率的な使用が必要なiot実装を妨げます
+      特に、提案されているParallel WaveGANのパラメータは1.44 Mのみで、単一のGPU環境でリアルタイムの28.68倍の24 kHz音声波形を生成できます。さらに、このモデルは、コンパクトなアーキテクチャでも高忠実度の音声を生成できます。 ..知覚的リスニングテストの結果は、提案された方法が、トランスフォーマーベースの音声合成フレームワーク内で4.16平均オピニオンスコアを達成することを検証します。これは、最適な蒸留ベースのParallel WaveNetシステムと比較されます。 
+[要約]提案された方法は、非自己回帰ウェーブネットを使用して、現実的な音声波形の時間-周波数分布をキャプチャします
     <span class="entry-meta">
       <time itemprop="datePublished" datetime="">
         <br>

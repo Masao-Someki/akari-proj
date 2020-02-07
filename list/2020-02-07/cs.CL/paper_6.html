@@ -6,8 +6,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
-<title>Towards Scalable Multi-domain Conversational Agents: The Schema-Guided
-  Dialogue Dataset-Akari</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157706143-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-157706143-1');
+</script>
+
+<title>DeFINE: DEep Factorized INput Token Embeddings for Neural Sequence
+  Modeling-Akari</title>
 <link rel='stylesheet' type='text/css' href='../../../css/normalize.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/skelton.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/menu_bar.css'>
@@ -21,40 +32,39 @@
 	header
 	-->
 <header role="banner">
-  <div class="header-logo">
-    <a href="../../../index.html"><img src="../../../images/akari.png" width="100" height="100"></a>
-  </div>
-</header>
-<input type="checkbox" id="cp_navimenuid">
+		<div class="header-logo">
+			<a href="../../../index.html"><img src="../../../images/akari.png" width="100" height="100"></a>
+		</div>
+	</header>
+  <input type="checkbox" id="cp_navimenuid">
 <label class="menu" for="cp_navimenuid">
-
 <div class="menubar">
-<span class="bar"></span>
-<span class="bar"></span>
-<span class="bar"></span>
+	<span class="bar"></span>
+	<span class="bar"></span>
+	<span class="bar"></span>
 </div>
-
-<ul>
-<li><a id="home" href="../../../index.html">Home</a></li>
-<li><a id="about" href="../../../teamAkariとは.html">About</a></li>
-<li><a id="contact" href="../../../contact.html">Contact</a></li>
-<li><a id="contact" href="../../../list/newest.html">New Papers</a></li>
-<li><a id="contact" href="../../../list/back_number.html">Back Numbers</a></li>
-</ul>
+  <ul>
+    <li><a id="home" href="../../../index.html">Home</a></li>
+    <li><a id="about" href="../../../teamAkariとは.html">About</a></li>
+    <li><a id="contact" href="../../../contact.html">Contact</a></li>
+    <li><a id="contact" href="../../../list/newest.html">New Papers</a></li>
+    <li><a id="contact" href="../../../list/back_number.html">Back Numbers</a></li>
+  </ul>
 
 </label>
+
 <!-- article -->
 <main role="main">
 <article itemscope itemtype="https://schema.org/Blog">
   <h2 class="entry-title" itemprop="headline">
-    <a href="http://arxiv.org/abs/1909.05855v2">
-      Towards Scalable Multi-domain Conversational Agents: The Schema-Guided
-  Dialogue Dataset
+    <a href="http://arxiv.org/abs/1911.12385v2">
+      DeFINE: DEep Factorized INput Token Embeddings for Neural Sequence
+  Modeling
     </a>
   </h2>
   <h3 class="entry-abstract" itemprop="abstract">
-      言語理解、スロット充填、対話状態の追跡、応答生成など、多くのタスクに挑戦的なテストベッドを提供します。同じ行に沿って、タスク指向対話のスキーマガイドパラダイムを提示します。これにより、単一の対話システムで多数のサービスを簡単にサポートでき、追加のトレーニングデータを必要とせずに新しいサービスを簡単に統合できます。 
-[概要]データセットは、既存のタスク-管理ダイアログコーパスの規模を超えていますが、大規模な仮想アシスタントの構築に関連する課題も強調しています
+      適応入力表現を含む最新の方法と比較して、この手法は、6〜20％の複雑さの低下をもたらします。このアーキテクチャでは、低次元入力の使用を可能にする斬新なスキップ接続を備えた階層構造を使用します出力層、合計パラメーターとトレーニング時間を削減しながら、既存の方法と同等以上のパフォーマンスを提供します。DeFINEは、新規または既存のシーケンスモデルに簡単に組み込むことができます。 
+[概要]この作業では、comparable.itを学習するための新しいメソッドを定義します。このメソッドを使用して、深いトークン表現を効率的に学習します。新規または既存のシーケンスモデルに簡単に組み込むことができます。
     <span class="entry-meta">
       <time itemprop="datePublished" datetime="">
         <br>
