@@ -17,8 +17,8 @@
   gtag('config', 'UA-157706143-1');
 </script>
 
-<title>Enhancing End-to-End Multi-channel Speech Separation via Spatial Feature
-  Learning-Akari</title>
+<title>High-Accuracy and Low-Latency Speech Recognition with Two-Head
+  Contextual Layer Trajectory LSTM Model-Akari</title>
 <link rel='stylesheet' type='text/css' href='../../../css/normalize.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/skelton.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/menu_bar.css'>
@@ -57,14 +57,14 @@
 <main role="main">
 <article itemscope itemtype="https://schema.org/Blog">
   <h2 class="entry-title" itemprop="headline">
-    <a href="http://arxiv.org/abs/2003.03927v1">
-      Enhancing End-to-End Multi-channel Speech Separation via Spatial Feature
-  Learning
+    <a href="http://arxiv.org/abs/2003.07482v1">
+      High-Accuracy and Low-Latency Speech Recognition with Two-Head
+  Contextual Layer Trajectory LSTM Model
     </a>
   </h2>
   <h3 class="entry-abstract" itemprop="abstract">
-      これらのフィルターは2d畳み込み（conv2d）レイヤーによって実装され、そのパラメーターは音声分離目的関数を使用して純粋にデータ駆動型で最適化されます。シミュレートされたマルチチャンネル残響WSJ0 2ミックスデータセットの評価結果は、提案されたICDベースのMCSSモデルは、IPDベースのMCSSモデルよりも全体の信号対歪み比を10.4 \％向上させます。ただし、これらの手動で設計された空間機能は、エンドツーエンドの最適化MCSSフレームワークに組み込むのが困難です。 
-[概要]このアーキテクチャでは、信号チャネルにまたがる時間領域フィルタが適応空間フィルタリングを実行するようにトレーニングされます。これらは、mcssシステムの極方向を区別するのに役立つように設計されています
+      低レイテンシを実現するには、LSTMと比較して、1つのヘッドのレイテンシがゼロで、もう1つのヘッドのレイテンシが小さい2ヘッドcltLSTMを設計します。これは、時間モデリングとターゲット分類タスクを分離し、将来のコンテキストフレームを組み込んで、正確な音響モデリングの詳細情報を取得します。シーケンスレベルの教師と生徒の学習により、トレーニング戦略をさらに改善します。 
+[ABSTRACT]提案されたトレーニング戦略を備えた2ヘッドcltlstmモデルを提案すると、従来のlstm音響モデルと比較して28.2％の相対的な削減が得られ、同様の知覚レイテンシー
     <span class="entry-meta">
       <time itemprop="datePublished" datetime="">
         <br>
