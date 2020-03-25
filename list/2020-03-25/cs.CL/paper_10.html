@@ -17,8 +17,7 @@
   gtag('config', 'UA-157706143-1');
 </script>
 
-<title>TRANS-BLSTM: Transformer with Bidirectional LSTM for Language
-  Understanding-Akari</title>
+<title>Felix: Flexible Text Editing Through Tagging and Insertion-Akari</title>
 <link rel='stylesheet' type='text/css' href='../../../css/normalize.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/skelton.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/menu_bar.css'>
@@ -57,14 +56,13 @@
 <main role="main">
 <article itemscope itemtype="https://schema.org/Blog">
   <h2 class="entry-title" itemprop="headline">
-    <a href="http://arxiv.org/abs/2003.07000v1">
-      TRANS-BLSTM: Transformer with Bidirectional LSTM for Language
-  Understanding
+    <a href="http://arxiv.org/abs/2003.10687v1">
+      Felix: Flexible Text Editing Through Tagging and Insertion
     </a>
   </h2>
   <h3 class="entry-abstract" itemprop="abstract">
-      私たちは、各トランスフォーマブロックに統合されたBLSTMレイヤーを備えたトランスフォーマーBLSTM（TRANS-BLSTM）と呼ばれる新しいアーキテクチャを提案します。 （BLSTM）は、ニューラル機械翻訳と質問応答の主要なモデリングアーキテクチャでした。TRANS-BLSTMモデルは、SQuAD 1.1開発データセットで94.01％のF1スコアを取得します。これは、最先端の結果に匹敵します。 。 
-[概要]バートモデルアーキテクチャのメモリはトランスフォーマーから派生します。これら2つのモデリング手法を組み合わせて、より強力なモデルアーキテクチャを作成できます。trans-blstmモデルは一貫して精度の向上につながります
+      これらのモデルは両方とも、より高速な推論を保証するために非自己回帰であるように選択されています。これを実現するには、テキスト編集タスクを2つのサブタスクに分解します。出力トークン内の入力トークンのサブセットとその順序を決定するタグ付けと、入力に存在しない出力で欠落しているトークンを埋め込むための挿入。4つのNLGタスクで評価されるとき、Felixは最近のテキスト編集方法および強力なseq2seqベースラインと比較して有利に機能します。SentenceFusion、機械翻訳自動ポスト編集、要約、およびテキストの簡略化。 
+[ABSTRACT] felixは低テキスト編集と新しいモデルで効率的です。編集モデルはマスクに基づいていますが、タグ付けモデルは新しいポインターメカニズムを使用しています
     <span class="entry-meta">
       <time itemprop="datePublished" datetime="">
         <br>
