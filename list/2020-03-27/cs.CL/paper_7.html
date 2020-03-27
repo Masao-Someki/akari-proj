@@ -17,8 +17,8 @@
   gtag('config', 'UA-157706143-1');
 </script>
 
-<title>Distant Supervision and Noisy Label Learning for Low Resource Named
-  Entity Recognition: A Study on Hausa and Yorùbá-Akari</title>
+<title>TLDR: Token Loss Dynamic Reweighting for Reducing Repetitive Utterance
+  Generation-Akari</title>
 <link rel='stylesheet' type='text/css' href='../../../css/normalize.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/skelton.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/menu_bar.css'>
@@ -57,14 +57,14 @@
 <main role="main">
 <article itemscope itemtype="https://schema.org/Blog">
   <h2 class="entry-title" itemprop="headline">
-    <a href="http://arxiv.org/abs/2003.08370v1">
-      Distant Supervision and Noisy Label Learning for Low Resource Named
-  Entity Recognition: A Study on Hausa and Yorùbá
+    <a href="http://arxiv.org/abs/2003.11963v1">
+      TLDR: Token Loss Dynamic Reweighting for Reducing Repetitive Utterance
+  Generation
     </a>
   </h2>
   <h3 class="entry-abstract" itemprop="abstract">
-      この作業では、いくつかの開発途上国で広く話されている2つの言語であるHausaとYor \ `ub \ &#39;aの名前付きエンティティ認識を実行します。さまざまな埋め込みアプローチを評価し、現実的な低レベルで遠隔監視をうまく活用できることを示します-分類子のパフォーマンスを2倍以上にできるリソースシナリオ。より複雑なコンテキストワード埋め込みの出現により、モデルサイズとパフォーマンスの間に興味深いトレードオフが生じます。 
-[要約]これらの手法は、高リソース設定でうまく機能することが示されています。しかし、低モデルシナリオでどのように機能するかを研究したいと思います。
+      ハードトークンには高い重みを使用し、イージートークンには低い重みを使用することで、NLGモデルは個々のトークンを異なるペースで学習できます。ただし、この方法は変換器などの他のモデルに一般化されません。自然言語生成（NLG）モデルは繰り返し発声する傾向があります。 
+[ABSTRACT]モデルアーキテクチャの影響を最初に調査します。例として、個々のトークン損失に微分可能な重みを適用するトークン損失動的再重み付け（tldr）を学習します
     <span class="entry-meta">
       <time itemprop="datePublished" datetime="">
         <br>
