@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="Akari" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157706143-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-157706143-1');
+</script>
+
+<title>FastSpeech 2: Fast and High-Quality End-to-End Text to Speech-Akari</title>
+<link rel='stylesheet' type='text/css' href='../../../css/normalize.css'>
+<link rel='stylesheet' type='text/css' href='../../../css/skelton.css'>
+<link rel='stylesheet' type='text/css' href='../../../css/menu_bar.css'>
+<link rel='stylesheet' type='text/css' href='../../../css/field.css'>
+<link rel='stylesheet' type='text/css' href='../../../css/custom.css'>
+
+</head>
+<body>
+<div class="container">
+<!--
+	header
+	-->
+<header role="banner">
+		<div class="header-logo">
+			<a href="../../../index.html"><img src="../../../images/akari.png" width="100" height="100"></a>
+		</div>
+	</header>
+  <input type="checkbox" id="cp_navimenuid">
+<label class="menu" for="cp_navimenuid">
+<div class="menubar">
+	<span class="bar"></span>
+	<span class="bar"></span>
+	<span class="bar"></span>
+</div>
+  <ul>
+    <li><a id="home" href="../../../index.html">Home</a></li>
+    <li><a id="about" href="../../../teamAkariとは.html">About</a></li>
+    <li><a id="contact" href="../../../contact.html">Contact</a></li>
+    <li><a id="contact" href="../../../list/newest.html">New Papers</a></li>
+    <li><a id="contact" href="../../../list/back_number.html">Back Numbers</a></li>
+  </ul>
+
+</label>
+
+<!-- article -->
+<main role="main">
+<article itemscope itemtype="https://schema.org/Blog">
+  <h2 class="entry-title" itemprop="headline">
+    <a href="http://arxiv.org/abs/2006.04558v3">
+      FastSpeech 2: Fast and High-Quality End-to-End Text to Speech
+    </a>
+  </h2>
+  <h3 class="entry-abstract" itemprop="abstract">
+      実験結果は、1）FastSpeech 2および2sが音声品質でFastSpeechよりもはるかに簡素化されたトレーニングパイプラインと短縮されたトレーニング時間を示しています。 2）FastSpeech 2および2sは、推論速度を大幅に向上させながら、自己回帰モデルの音声品質に一致させることができます。FastSpeech2sをさらに設計します。これは、テキストから音声波形を直接並列生成する最初の試みであり、フルエンドの利点を享受します。トレーニングを終了し、FastSpeechよりもさらに高速に推論します。ただし、FastSpeechにはいくつかの欠点があります。1）教師と生徒の蒸留パイプラインが複雑である、2）教師モデルから抽出された期間が十分に正確ではなく、ターゲットのメルスペクトログラム教師モデルから抽出されたデータは、データの単純化による情報の損失に悩まされますが、どちらも音声品質を制限します。 
+[要約] fastspeechモデルのトレーニングは、継続時間予測のための自己回帰教師モデルに依存しています。fastspeech2は、テキストから音声波形を並列で直接生成する最初の試みです。
+    <span class="entry-meta">
+      <time itemprop="datePublished" datetime="">
+        <br>
+      </time>
+    </span>
+  </h3>
+</article>
+</main>
+<footer role="contentinfo">
+  <div class="hr"></div>
+  <address>
+    <div class="avatar-bottom">
+      <a href="https://twitter.com/akari39203162">
+        <img src="../../../images/twitter.png">
+      </a>
+    </div>
+    <div class="avatar-bottom">
+      <a href="https://www.miraimatrix.com/">
+        <img src="../../../images/mirai.png">
+      </a>
+    </div>
+
+  <div class="copyright">Copyright &copy;
+    <a href="../../../teamAkariについて">Akari</a> All rights reserved.
+  </div>
+  </address>
+</footer>
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+       HTML: ["input/TeX","output/HTML-CSS"],
+       TeX: {
+              Macros: {
+                       bm: ["\\boldsymbol{#1}", 1],
+                       argmax: ["\\mathop{\\rm arg\\,max}\\limits"],
+                       argmin: ["\\mathop{\\rm arg\\,min}\\limits"]},
+              extensions: ["AMSmath.js","AMSsymbols.js"],
+              equationNumbers: { autoNumber: "AMS" } },
+       extensions: ["tex2jax.js"],
+       jax: ["input/TeX","output/HTML-CSS"],
+       tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                  displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                  processEscapes: true },
+       "HTML-CSS": { availableFonts: ["TeX"],
+                     linebreaks: { automatic: true } }
+   });
+</script>
+
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+     tex2jax: {
+       skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+     }
+   });
+</script>
+
+<script type="text/javascript" async
+ src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+</body>
+</html>
