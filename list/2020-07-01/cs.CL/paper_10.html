@@ -17,7 +17,7 @@
   gtag('config', 'UA-157706143-1');
 </script>
 
-<title>FastSpeech 2: Fast and High-Quality End-to-End Text to Speech-Akari</title>
+<title>Rethinking Positional Encoding in Language Pre-training-Akari</title>
 <link rel='stylesheet' type='text/css' href='../../../css/normalize.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/skelton.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/menu_bar.css'>
@@ -56,13 +56,13 @@
 <main role="main">
 <article itemscope itemtype="https://schema.org/Blog">
   <h2 class="entry-title" itemprop="headline">
-    <a href="http://arxiv.org/abs/2006.04558v3">
-      FastSpeech 2: Fast and High-Quality End-to-End Text to Speech
+    <a href="http://arxiv.org/abs/2006.15595v2">
+      Rethinking Positional Encoding in Language Pre-training
     </a>
   </h2>
   <h3 class="entry-abstract" itemprop="abstract">
-      実験結果は、1）FastSpeech 2および2sが音声品質でFastSpeechよりもはるかに簡素化されたトレーニングパイプラインと短縮されたトレーニング時間を示しています。 2）FastSpeech 2および2sは、推論速度を大幅に向上させながら、自己回帰モデルの音声品質に一致させることができます。FastSpeech2sをさらに設計します。これは、テキストから音声波形を直接並列生成する最初の試みであり、フルエンドを終了するトレーニングとFastSpeechよりもさらに高速な推論..このホワイトペーパーでは、FastSpeechの問題に対処し、TTSでの1対多マッピングの問題を1）で直接解決するFastSpeech 2を提案します。教師からの単純化された出力の代わりに真実のターゲット、および2）条件付き入力として音声のより多くのバリエーション情報（たとえば、ピッチ、エネルギー、およびより正確な継続時間）を導入します。 
-[要約] fastspeechモデルのトレーニングは、継続時間予測のための自己回帰教師モデルに依存しています。fastspeech2は、テキストから音声波形を並列で直接生成する最初の試みです。
+      この設計は、ノイズの多い単語と位置の相関を取り除き、さまざまな射影行列を使用して、単語/位置間の関係を特徴付ける表現力を高めます。位置情報をニューラルネットワークに明示的にエンコードする方法は、自然言語処理で重要な問題です。特に、 30％のトレーニング前の計算コストのみを使用しながら、ベースラインよりも高いスコアを達成できます。 
+[ABSTRACT]デザインにより、ノイズの多い単語と位置の問題の相関関係が削除されます。単語/位置間の関係を特徴付ける表現力が高まります。tupeは、ほぼすべてのタスクのベースラインを大幅に上回っています。
     <span class="entry-meta">
       <time itemprop="datePublished" datetime="">
         <br>

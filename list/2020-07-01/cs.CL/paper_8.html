@@ -17,7 +17,8 @@
   gtag('config', 'UA-157706143-1');
 </script>
 
-<title>FastSpeech 2: Fast and High-Quality End-to-End Text to Speech-Akari</title>
+<title>Non-Autoregressive Machine Translation with Disentangled Context
+  Transformer-Akari</title>
 <link rel='stylesheet' type='text/css' href='../../../css/normalize.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/skelton.css'>
 <link rel='stylesheet' type='text/css' href='../../../css/menu_bar.css'>
@@ -56,13 +57,14 @@
 <main role="main">
 <article itemscope itemtype="https://schema.org/Blog">
   <h2 class="entry-title" itemprop="headline">
-    <a href="http://arxiv.org/abs/2006.04558v3">
-      FastSpeech 2: Fast and High-Quality End-to-End Text to Speech
+    <a href="http://arxiv.org/abs/2001.05136v2">
+      Non-Autoregressive Machine Translation with Disentangled Context
+  Transformer
     </a>
   </h2>
   <h3 class="entry-abstract" itemprop="abstract">
-      実験結果は、1）FastSpeech 2および2sが音声品質でFastSpeechよりもはるかに簡素化されたトレーニングパイプラインと短縮されたトレーニング時間を示しています。 2）FastSpeech 2および2sは、推論速度を大幅に向上させながら、自己回帰モデルの音声品質に一致させることができます。FastSpeech2sをさらに設計します。これは、テキストから音声波形を直接並列生成する最初の試みであり、フルエンドの利点を享受します。トレーニングを終了し、FastSpeechよりもさらに高速に推論します。ただし、FastSpeechにはいくつかの欠点があります。1）教師と生徒の蒸留パイプラインが複雑である、2）教師モデルから抽出された期間が十分に正確ではなく、ターゲットのメルスペクトログラム教師モデルから抽出されたデータは、データの単純化による情報の損失に悩まされますが、どちらも音声品質を制限します。 
-[要約] fastspeechモデルのトレーニングは、継続時間予測のための自己回帰教師モデルに依存しています。fastspeech2は、テキストから音声波形を並列で直接生成する最初の試みです。
+      さまざまなデータサイズの7つの翻訳方向に関する広範な実験は、非自己回帰機械翻訳の最新技術と比較して、モデルが優れたとは言えないにしても、平均でデコード時間を大幅に削減しながら、競争力のあるパフォーマンスを達成することを示しています。簡単な最初の推論アルゴリズム。すべてのトークンを並行して反復的に調整し、必要な反復の数を減らします。コードはhttps://github.com/facebookresearch/DisCoで入手できます。 
+[ABSTRACT]ディスコマスカーは、他の参照トークンの任意のサブセットが指定されたすべての出力トークンを予測するようにトレーニングされています。調査によると、私たちのモデルは、非自己回帰機械翻訳の最先端技術と比較して、優れたパフォーマンスではないにしても、ステップパフォーマンスを達成しています。
     <span class="entry-meta">
       <time itemprop="datePublished" datetime="">
         <br>
